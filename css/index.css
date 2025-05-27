@@ -157,7 +157,7 @@ section#tokenomics .section-full .toke-box {
   flex: 1;
   box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.26);
   margin: 15px 15px 15px 15px;
-  background-image: url("../img/smalbg.jpg");
+  background-color: #007fcc;
   background-position: 100% 67%;
 
   border-radius: 15px 15px 15px 15px;
@@ -228,18 +228,18 @@ section#roadmap h2 {
 }
 
 section#roadmap .section-full .road-box {
-  /*background-color: var(--orange);*/
+  /* background-color: var(--orange); */
   background-color: #007fcc;
   border-radius: 40px;
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 30px 15px;
-  min-height: 300px;
+  min-height: 420px;
+  width: 31%;
+  text-align: center;
 }
-
 section#roadmap .section-full .road-box h3 {
   margin: 0;
   margin-bottom: 10px;
